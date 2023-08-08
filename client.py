@@ -18,7 +18,7 @@ while True:
     print(len(data), count)
     time.sleep(0.25)
     picture = picture + data
-
+print('Something New')
 mysock.close()
 
 pos = picture.find(b'\r\n\r\n')
